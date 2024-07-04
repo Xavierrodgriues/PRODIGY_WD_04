@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'SF Cartoonist Hand SC';
+    src: url('./fonts/SF-Cartoonist-Hand-SC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#bg{
+    background-image: url('./assets/pic1.png')
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.underline-effect::after {
+    content: "";
+
+    display: block;
+    width: 27rem; /* Adjust width as needed */
+    padding-top: 3px;
+    border-bottom: 2px solid #d17de6;
+    margin: 0 auto; /* Center the underline */
+  }
+
+  .underline-effect::after {
+    content: "";
+    display: block;
+    width: 28rem; /* Adjust width as needed */
+    padding-top: 10px; /* Increased padding-top to lower the underline */
+    border-bottom: 2px solid #b384b1; /* Darker color for the underline */
+    margin: 0 auto; /* Center the underline */
+  }
+  
+
+  
